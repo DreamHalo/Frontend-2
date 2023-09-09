@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1689311515122,
+      "title": "PHP the best",
+      "author": "Davronbek"
+    },
+    {
+      "id": 1689312024694,
+      "title": "React",
+      "author": "Davronbek"
+    },
+    {
+      "id": 1689312028927,
+      "title": "Angular",
+      "author": "Davronbek"
+    },
+    {
+      "id": 23,
+      "title": "world wide web",
+      "author": "Tim Beransr LI",
+      "text": "EDITED TEXT"
+    },
+    {
+      "id": 1689312028928
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode",
+    "password": "12345qwerty"
+  }
+}

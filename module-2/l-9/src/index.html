@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Mist Gardens</title>
+</head>
+
+<body>
+    <header class=" fixed top-0 backdrop-blur-3xl  w-full shadow">
+        <div class="container mx-auto">
+            <nav class="nav flex justify-between h-[90px] items-center">
+                <a href="#" class="logo">
+                    <img src="./assets/icons/logo.svg" alt="Logo">
+                </a>
+                <ul class="list hidden  lg:flex justify-between text-white gap-[40px]">
+                    <li class="item"><a href="#" class="link text-black">HOME</a></li>
+                    <li class="item"><a href="#" class="link text-black">VISIT</a></li>
+                    <li class="item"><a href="#" class="link text-black">EXHIBITION</a></li>
+                    <li class="item"><a href="#" class="link text-black">Programs & Events</a></li>
+                    <li class="item"><a href="#" class="link text-black">STORE</a></li>
+                </ul>
+                <img src="./src/assets/icons/menu.svg" alt="" class="flex lg:hidden">
+                <button
+                    class="w-[187px] h-[56px] border-4 hover:bg-green-700 hover:border-0 hover:text-white border-rose-500 items-center justify-center hidden lg:flex">MEMBERSHIP</button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="body">
+        <div class="wrapper sm:block items-center justify-center lg:flex">
+            <div class="container mx-auto mt-[300px] ml-[200px] sm:ml-[300px]">
+                <h2 class="w-[500px] sm:w-[450px] text-center sm:text-center font-normal text-[57px]">A Beatiful
+                    Adventure Awaits</h2>
+                <p class="w-[471px] font-light text-[25px] mt-[16px] text-center sm:text-center">Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
+                <button
+                    class="w-[187px] h-[56px] bg-green-700 hover:bg-white hover:border-4 hover:text-black hover:border-green-700 text-white mt-[32px] sm:ml-[50px] ml-[50px] ">Buy
+                    Tickets</button>
+                <button
+                    class="w-[187px] h-[56px] border-4 hover:bg-green-700 hover:text-white hover:border-0 border-green-800 mt-[32px]">Learn
+                    More</button>
+            </div>
+            <img src="./assets/images/Rectangle 4.jpg" alt=""
+                class="w-[254px] sm:w-[377px] lg:w-[458px] mt-[100px] ml-[300px] lg:mr-[300px] lg:mt-[200px] sm:ml-[350px]  flex items-center justify-center">
+        </div>
+    </section>
+
+</body>
+</html>

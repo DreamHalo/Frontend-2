@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- monrope Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet" />
+  <!-- build css -->
+  <link rel="stylesheet" href="../dist/output.css" />
+  <link rel="stylesheet" href="./assets/style/main.css">
+  <title>Headphones</title>
+</head>
+
+<body>
+  <header class="fixed top-0 bg-black w-full">
+    <div class="container mx-auto">
+      <nav class="nav flex justify-between h-[90px] items-center">
+        <a href="#" class="logo">
+          <img src="./assets/icons/logo.png" alt="Logo" />
+        </a>
+        <ul class="list hidden md:flex justify-between text-white gap-[34px]">
+          <li class="item"><a href="#" class="link">HOME</a></li>
+          <li class="item"><a href="#" class="link">HEADPHONES</a></li>
+          <li class="item"><a href="#" class="link">SPEAKERS</a></li>
+          <li class="item"><a href="#" class="link">EARPHONES</a></li>
+        </ul>
+        <img class="" src="./assets/icons/Combined Shape.svg" alt="Korzinka" />
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="intro" class="min-h-[729px] bg-[#141414] mt-[90px] mb-[150px] font-manrope">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class=" w-[398px] text-center mt-[18vh] lg: m-0 mx-auto lg:text-left text-white z-30">
+          <p class="text-[14px] font-normal tracking-[10px] text-[#FFFFFF] backdrop-opacity-50 mb-6">NEW PRODUCT</p>
+          <h2 class="font-bold text-[56px] leading-[58px] tracking-[2px] uppercase text-[#FFFFFF] mb-6">
+            XX99 Mark II Headphones
+          </h2>
+          <p class="font-medium text-[15px] leading-[25px] text-[#FFFFFF] tracking-[0.75] mb-10">
+            Experience natural, lifelike audio and exceptional build quality
+            made for the passionate music enthusiast.
+          </p>  
+          <button
+            class="bg-orange-dark py-[15px] px-[3       20px] leading-[18px] tracking-[1px] uppercase text-[#FFFFFF] font-bold text-[13px]">
+            See Product
+          </button>
+
+        </div>
+        <picture class="  absolute lg:relative top-40 lg:top-0 scale-150 sm:scale-100 lg:scale-100">
+          <source media="max-width: 375px" srcset="./assets/images/BitmapTablet.png" />
+          <source media="max-width: 768px" srcset="./assets/images/BitmapTablet.png" />
+          <img src="./assets/image/hero-image.png" alt="Bitmap" class="rasm rounded-full" />
+        </picture>
+      </div>
+    </section>
+    <section id="products" class="mt-[200px]">
+      <div class="container mx-auto">
+        <div class="flex justify-between flex-col items-center md:flex-row gap-20">
+
+          <div class="card m-2 bg-[#F1F1F1] min-w-[350px] text-center w-full pb-[22px]">
+            <img class="card-image translate-y-[-80px] block mx-auto" src="./assets/image/second/image-removebg-preview(41).png" alt="headphones">
+            <h1 class="uppercase mt-[43px]">Headphones</h1>
+            <a href="#" class="mt-4 block hover:text-orange-400">SHOP </a>
+          </div>
+          <div class="card m-2 bg-[#F1F1F1] min-w-[350px] text-center w-full pb-[22px]">
+            <img class="card-image translate-y-[-80px] block mx-auto" src="./assets/image/second/image-removebg-preview(38).png" alt="monitor">
+            <h1 class="uppercase mt-[43px]">Speakers</h1>
+            <a href="#" class="mt-4 block hover:text-orange-400">SHOP </a>
+          </div>
+          <div class="card m-2 bg-[#F1F1F1] min-w-[350px] text-center w-full pb-[22px]">
+            <img class="card-image translate-y-[-80px] block mx-auto" src="./assets/image/second/Group 5.png" alt="audio">
+            <h1 class="uppercase mt-[43px]">Earphones</h1>
+            <a href="#" class="mt-4 block hover:text-orange-400">SHOP </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
